@@ -1,0 +1,58 @@
+/* 样式初始化文件 */
+
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dt,dd,li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+    font-family: '微软雅黑';
+    color: #666;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+a:hover {
+    color: #00a4ff;
+}
+
+
+img,input {
+    border: none;
+    outline-style: none;
+    vertical-align: middle;
+    padding: 0;
+}
+
+
+
+/* 设置公共样式 */
+
+.w {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
